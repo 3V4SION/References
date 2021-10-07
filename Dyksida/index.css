@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+.w-35 {
+    width: 35%;
+}
