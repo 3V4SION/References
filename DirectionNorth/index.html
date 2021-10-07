@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+
+
+    <title>✯ Direction North ✯</title>
+
+</head>
+
+<body>
+    <div class="menu" style="text-align: center;">
+        <a href="Shop.html">Shop</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+    </div>
+
+
+    <div class="scroll1 parallax--bg">
+        <div class="caption">
+            <span class="border">Direction North</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="textbox">
+            <h3 style="text-align:center;">Direction North Clothing</h3>
+            <p style="text-align:center;" class="p" id="demo"></p>
+            <p style="text-align:center;">"Life was always a matter of waiting for the right moment to act"</p>
+        </div>
+    </div>
+
+
+    <div class="scroll2">
+        <div class="caption">
+            <span class="border" style="background-color: transparent;">
+            </span>
+        </div>
+    </div>
+
+    <div style="position:relative;">
+        <div style="color:#ddd;background-color:#282E34;text-align:center;padding:20px 60px;text-align:justify;">
+            <p style="text-align:left;">All rights reserved © 2018</p>
+            <p style="text-align: left;">Direction North INC.</p>
+        </div>
+    </div>
+    <script>
+        var countDownDate = new Date("June, 2018 00:00:00").getTime();
+
+        var x = setInterval(function() {
+
+            var now = new Date().getTime();
+
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+                minutes + "m " + seconds + "s ";
+
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="parallax.js"></script>
+</body>
+
+</html>

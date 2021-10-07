@@ -1,0 +1,330 @@
+@charset "UTF-8";
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", Sans-serif;
+    color: #777;
+}
+
+.parallax4,
+.paralax5 {
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    background-image: url("https://wallpapercave.com/wp/wp2116924.jpg");
+    min-height: 50%;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", Sans-Serif;
+}
+
+div.menu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+div.menu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.menu a:hover {
+    background-color: #777;
+}
+
+.card {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    font-family: arial;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 1;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.collection {
+    color: rgb(59, 59, 59);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px 80px;
+    height: 40px;
+    text-align: justify;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.model {
+    width: 33.3333%;
+    text-align: center;
+    float: left;
+}
+
+.model img {
+    width: 300px;
+    margin-bottom: -10px;
+}
+
+.model h3 {
+    margin-bottom: -5px;
+}
+
+.model h5 {
+    margin-bottom: -5px;
+}
+
+.A1 {
+    display: inline-block;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    align-content: center;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.A1 span {
+    font-weight: bold;
+}
+
+.model1 {
+    width: 33.3333%;
+    text-align: center;
+    float: left;
+}
+
+.model1 img {
+    width: 300px;
+    margin-bottom: -10px;
+}
+
+.model1 h3 {
+    margin-bottom: -5px;
+}
+
+.model1 h5 {
+    margin-bottom: -5px;
+}
+
+.A2 {
+    display: inline-block;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    align-content: center;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.A2 span {
+    font-weight: bold;
+}
+
+.model2 {
+    width: 33.3333%;
+    text-align: center;
+    float: left;
+}
+
+.model2 img {
+    width: 300px;
+    margin-bottom: -10px;
+}
+
+.model2 h3 {
+    margin-bottom: -5px;
+}
+
+.model2 h5 {
+    margin-bottom: -5px;
+}
+
+.model2 p {
+    display: inline-block;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    align-content: center;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.model2 p span {
+    font-weight: bold;
+}
+
+.model3 {
+    width: 33.3333%;
+    text-align: center;
+    float: left;
+    margin-top: 15px;
+}
+
+.model3 img {
+    width: 300px;
+    margin-bottom: -10px;
+}
+
+.model3 h3 {
+    margin-bottom: -5px;
+}
+
+.model3 h5 {
+    margin-bottom: -5px;
+}
+
+.model3 p {
+    display: inline-block;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    align-content: center;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.model3 p span {
+    font-weight: bold;
+}
+
+.A3 {
+    display: inline-block;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    align-content: center;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.model4 {
+    width: 33.3333%;
+    text-align: center;
+    float: left;
+    margin-top: 15px;
+}
+
+.model4 img {
+    width: 300px;
+    margin-bottom: -10px;
+}
+
+.model4 h3 {
+    margin-bottom: -5px;
+}
+
+.model4 h5 {
+    margin-bottom: -5px;
+}
+
+.model4 p {
+    display: inline-block;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    align-content: center;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.model4 p span {
+    font-weight: bold;
+}
+
+.model5 {
+    width: 33.3333%;
+    text-align: center;
+    float: left;
+    margin-top: 15px;
+}
+
+.model5 img {
+    width: 300px;
+    margin-bottom: -10px;
+    height: 300px;
+}
+
+.model5 h3 {
+    margin-bottom: -5px;
+}
+
+.model5 h5 {
+    margin-bottom: -5px;
+}
+
+.model5 p {
+    display: inline-block;
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    align-content: center;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.model5 p span {
+    font-weight: bold;
+}
